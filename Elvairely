@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvairley - Coming Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="text-center p-8 bg-white shadow-lg rounded-lg max-w-md">
+        <h1 class="text-4xl font-bold text-gray-800">Elvairley</h1>
+        <p class="text-lg text-gray-600 mt-2">Our products are coming soon. Stay tuned!</p>
+        <form class="mt-4">
+            <input type="email" placeholder="Enter your email" class="p-2 border rounded w-full">
+            <button type="submit" class="mt-2 w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700">Notify Me</button>
+        </form>
+        <div class="flex justify-center mt-4 space-x-4">
+            <a href="#" class="text-gray-600 hover:text-blue-600">Facebook</a>
+            <a href="#" class="text-gray-600 hover:text-blue-600">Instagram</a>
+            <a href="#" class="text-gray-600 hover:text-blue-600">Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
